@@ -34,6 +34,8 @@ namespace movies_app.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+
+            
         }
     }
 }
